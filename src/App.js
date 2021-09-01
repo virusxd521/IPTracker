@@ -16,7 +16,7 @@ function App() {
   
   // add an error check to see if there are server error
   const funcAPI = (ip="check") => {
-    fetch(`https://api.ipstack.com/${ip}?access_key=${API_KEY}`)
+    fetch(`http://api.ipstack.com/${ip}?access_key=${API_KEY}`)
     .then(response => {
       if(!response.ok){
         throw Error(response.statusText);
