@@ -11,7 +11,7 @@ function Table(props){
                 <p className="font-bold lg:text-2xl lg:mt-2  lg:ml-6">{props.client_location}</p>
             </div>
             <div className="m-auto mt-4 lg:mt-0 lg:ml-0 lg:border-l-2 lg:mr-16">
-                <h4 className="text-gray-500 font-bold text-xs text-center lg:text-left lg:ml-6 lg:text-sm">Continante Name</h4>
+                <h4 className="text-gray-500 font-bold text-xs text-center lg:text-left lg:ml-6 lg:text-sm">Current date and time</h4>
                 <p className="font-bold lg:text-2xl lg:mt-2 lg:ml-6">{props.client_timeZone}</p>
             </div>
             <div className="m-auto mt-4 lg:mt-0 lg:ml-0 lg:border-l-2 ">
