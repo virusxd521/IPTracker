@@ -21,11 +21,10 @@ function App() {
       if(!response.ok){
         throw Error(response.statusText);
       }
-      console.log(response);
       return response.json();
     })
     .then(data => {
-      console.log(data);
+      
       setInputIP(data.ip ? data.ip : "Could not fetch data...");
       setInputLocation(`${data.city} ${data.country_name}` ? `${data.city} ${data.country_name}` : "Could not fetch data..." );
       setInputTimezone(data.time_zone.current_time ? data.time_zone.current_time : "Could not fetch data...");

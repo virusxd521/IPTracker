@@ -13,7 +13,7 @@ function TheMap({area_arr}) {
   })
   
   return (            
-    <MapContainer center={area_arr} zoom={17} zoomControl={false} scrollWheelZoom={true}  style={{height : '40rem', zIndex: '0'}} >
+    <MapContainer center={area_arr} zoom={15} zoomControl={false} scrollWheelZoom={true}  style={{height : '40rem', zIndex: '0'}} >
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
